@@ -18,10 +18,16 @@ print()
 
 ### Q3: using List Comprehension , create a new list from the above list containing only even numbers.
 
+
 for i in mylist:
  if(i%2)==0:
   print('even == >', i)
-  
+  ''' here my solution'''
+
+even_number = [n for n in mylist if n%2 ==0]
+print()
+print('After Solution', even_number)
+'''public_solution'''
 
 ### Q4: use list slicing to get a new list from the previous list starting from the start to the 5th element in the list.
 
