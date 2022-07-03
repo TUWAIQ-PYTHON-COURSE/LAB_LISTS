@@ -6,7 +6,7 @@ print(sum_list)
 #code 2
 print(max(my_list))
 #code 3 
-my_list2 = [numbers for numbers in my_list]
+my_list2 = [numbers for numbers in my_list if numbers%2 == 0 ]
 print(my_list2)
 #code 4 
 print(my_list[0:6])
