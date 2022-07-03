@@ -4,7 +4,7 @@
 
 list_1 = [5, 4, 17, 19, 30, 2, 7, 10, 45]
 
-print(list_1)
+print(sum(list_1))
 # Q2: Write a Python program to get the largest number from the list.
 
 largest_number = max(list_1)
